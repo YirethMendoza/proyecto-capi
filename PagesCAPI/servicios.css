@@ -1,0 +1,104 @@
+@media only screen and (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "section" "article" "aside";
+    }
+}
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    margin: auto;
+}
+header {
+    padding: 10px;
+      border-style: groove;
+      border-width: 3px;
+      border-color: rgb(36, 33, 33);
+      }
+
+.header__logo {
+    width: auto ;
+     height: 200px;  
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.button {
+    display: inline;
+    border-style: groove;
+    padding: 2px
+
+}
+.button a:hover{
+    color: aliceblue;
+}
+.home{
+    background-color: #FD0E0E;
+}
+.servicios {
+    background-color: #FD810E;
+}
+.galeria {
+    background-color: #2FC517;
+}
+.testimonios {
+    background-color: #3C4FF5;
+}
+.contacto {
+    background-color: #940EFD;
+}
+.main {
+    overflow: auto;
+    margin: 5px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: px 2fr 2fr;
+    grid-template-areas: 
+    "section section"
+    "aside article";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.section {
+    grid-area: section; background: #21C1E1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.article {
+    grid-area: article; background: #51E4DF;
+}
+.aside {
+    grid-area: aside; background: #51E4DF;
+}
+/*.section {
+    background-color:#21C1E1;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+} */
+.titulo {
+    font-size: 30px;
+}
+.article {
+    background-color:#51E4DF ;
+}
+.info{
+    font-size: 20px;
+}
+.aside {
+    display: inline;
+}
+footer {
+    background-color: #FFD643;
+}
