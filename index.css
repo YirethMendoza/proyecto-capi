@@ -74,12 +74,9 @@ header {
     justify-content: center;
     flex-wrap: wrap;
 }
-/*.gradiente-titulo {
-    background:  linear-gradient(to top, #0096c7, #48cae4, #48cae4)
-} */
 
 .article {
-    grid-area: article; background: /* #51E4DF; */
+    grid-area: article; /* background: #51E4DF*/
 }
 .gradiente {
     background:  linear-gradient(to top, #fe7f2d, #a1c181, #51E4DF)
